@@ -27,8 +27,8 @@ int main(int argc, char** argv){
 void parseAndPut(char* filepath){
 
     FILE* myFile=fopen(filepath, "r");
-    char myLine[256];
-    while(fgets(myLine, 256, myFile)){
+    char myLine[STRING_BUFFER];
+    while(fgets(myLine, STRING_BUFFER, myFile)){
             
             size_t len = strlen(myLine);
                 if (len > 0 && myLine[len-1] == '\n') {
