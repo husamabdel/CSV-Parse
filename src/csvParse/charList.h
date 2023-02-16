@@ -3,7 +3,7 @@
 
 #define CHAR_LIST
 
-#define STRING_BUFFER 256
+#define STRING_BUFFER 1024
 
 typedef struct charNode{
 
